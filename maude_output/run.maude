@@ -1,0 +1,32 @@
+
+set show advisories off .
+set print attribute on .
+
+load model-checker.maude
+load mOdCL.maude
+load MGDefinitions.maude
+load EcoreMM.maude
+load MGRealTimeMaude24.maude
+load e-Motions.maude
+
+load FlattenPalladioMM.ecore.maude
+load PalladioGrammar.maude
+load PalladioRules.behavior.maude
+load palladioFlattenInitModel.xmi.maude
+
+
+mod RUN is
+  pr PALLADIOFLATTENINITMODEL . ---- Importing the metamodel
+  pr @PCMFLATTEN@BEHAVIOR@ .
+
+  var T TE : Time .
+  var MODEL : @Model .
+
+  crl [tick] :
+   { MODEL } in time T
+  =>
+   { delta(MODEL, TE) } in time (T plus TE)
+  if TE := mte(MODEL) /\ TE =/= zero /\ (T plus TE) le 100 .
+endm
+
+rewrite init(PALLADIOFLATTENINITMODEL) .
