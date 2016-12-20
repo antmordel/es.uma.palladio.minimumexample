@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:resourceenvironment="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/5.0" xsi:schemaLocation="http://sdq.ipd.uka.de/PalladioComponentModel/ResourceEnvironment/5.0 http://sdq.ipd.uka.de/PalladioComponentModel/5.0#//resourceenvironment" xmi:id="__cBycPOoEeOLdMBtYmSKXQ" type="ResourceEnvironmentModel" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="__ll-IPOoEeOLdMBtYmSKXQ" type="2004" fontName="Lucida Grande">
+    <children xmi:type="notation:DecorationNode" xmi:id="__lnMQPOoEeOLdMBtYmSKXQ" type="5019"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="__lq2oPOoEeOLdMBtYmSKXQ" type="7004">
+      <styles xmi:type="notation:SortingStyle" xmi:id="__lq2ofOoEeOLdMBtYmSKXQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="__lq2ovOoEeOLdMBtYmSKXQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="__lrdsPOoEeOLdMBtYmSKXQ" type="7007"/>
+    <element xmi:type="resourceenvironment:ResourceContainer" href="My.resourceenvironment#_B0aZ0CHdEd6lJo4DCALHMw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__ll-IfOoEeOLdMBtYmSKXQ" x="117" y="63" width="217" height="223"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="__cBycfOoEeOLdMBtYmSKXQ"/>
+  <element xmi:type="resourceenvironment:ResourceEnvironment" href="My.resourceenvironment#/"/>
+</notation:Diagram>
