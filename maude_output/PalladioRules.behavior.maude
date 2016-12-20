@@ -1,6 +1,6 @@
 ---- ----------------------------------------------- ----
 ---- Programmatically generated code using e-Motions ----
----- @date Tue Dec 20 11:58:44 CET 2016             ----
+---- @date Tue Dec 20 17:59:12 CET 2016             ----
 ---- ----------------------------------------------- ----
 
 mod @PCMFLATTEN@BEHAVIOR@ is
@@ -1517,8 +1517,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       <_:_|_>(PRT:OCL-Type, PCMRESOURCETYPEPROCESSINGRESOURCETYPE@PCMFLATTEN@PRT@CLASS:PCMresourcetypeProcessingResourceType@pcmflatten, PRT@SFS:Set{@StructuralFeatureInstance}), 
       <_:_|_>(PRS:OCL-Type, PCMRESOURCEENVIRONMENTPROCESSINGRESOURCESPECIFICATION@PCMFLATTEN@PRS@CLASS:PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, 
         _#_(
-          _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
-          _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), 
+          _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(Sch:OCL-Type, PCMRESOURCETYPESCHEDULINGPOLICY@PCMFLATTEN@Sch@CLASS:PCMresourcetypeSchedulingPolicy@pcmflatten, 
         _#_(
           _:_(id@IDENTIFIERidentifierIdentifier@pcmflatten, ID@Sch@ATT:OCL-Type), Sch@SFS:Set{@StructuralFeatureInstance})), 
@@ -1545,8 +1545,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(PRT:OCL-Type, PCMRESOURCETYPEPROCESSINGRESOURCETYPE@PCMFLATTEN@PRT@CLASS:PCMresourcetypeProcessingResourceType@pcmflatten, PRT@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(PRS:OCL-Type, PCMRESOURCEENVIRONMENTPROCESSINGRESOURCESPECIFICATION@PCMFLATTEN@PRS@CLASS:PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, 
           _#_(
-            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
-            _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), 
+            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(Sch:OCL-Type, PCMRESOURCETYPESCHEDULINGPOLICY@PCMFLATTEN@Sch@CLASS:PCMresourcetypeSchedulingPolicy@pcmflatten, 
           _#_(
             _:_(id@IDENTIFIERidentifierIdentifier@pcmflatten, ID@Sch@ATT:OCL-Type), Sch@SFS:Set{@StructuralFeatureInstance})), 
@@ -1684,8 +1684,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
           _:_(scenarioBehaviour@-@UsageScenario@PCMusagemodelUsageScenario@pcmflatten, SCENARIOBEHAVIOUR@-@USAGESCENARIO@usSc@ATT:OCL-Type), usSc@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
         _#_(
-          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
-          _:_(usageScenario@-@SenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, USAGESCENARIO@-@SENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(usageScenario@-@SenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, USAGESCENARIO@-@SENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(st:OCL-Type, TOKENTOKENSSANDTIMER@PCMFLATTEN@st@CLASS:TOKENtokensSandTimer@pcmflatten, 
         _#_(
           _:_(countDown@TOKENtokensSandTimer@pcmflatten, COUNTDOWN@st@ATT:OCL-Type), st@SFS:Set{@StructuralFeatureInstance})), 
@@ -1712,8 +1712,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(scenarioBehaviour@-@UsageScenario@PCMusagemodelUsageScenario@pcmflatten, SCENARIOBEHAVIOUR@-@USAGESCENARIO@usSc@ATT:OCL-Type), usSc@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
-            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
-            _:_(usageScenario@-@SenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, USAGESCENARIO@-@SENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(usageScenario@-@SenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, USAGESCENARIO@-@SENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(st:OCL-Type, TOKENTOKENSSANDTIMER@PCMFLATTEN@st@CLASS:TOKENtokensSandTimer@pcmflatten, 
           _#_(
             _:_(countDown@TOKENtokensSandTimer@pcmflatten, COUNTDOWN@st@ATT:OCL-Type), st@SFS:Set{@StructuralFeatureInstance})), 
@@ -1767,8 +1767,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(current:OCL-Type, PCMUSAGEMODELABSTRACTUSERACTION@PCMFLATTEN@current@CLASS:PCMusagemodelAbstractUserAction@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@current@ATT:OCL-Type), 
-          _:_(successor@PCMusagemodelAbstractUserAction@pcmflatten, SUCCESSOR@current@ATT:OCL-Type), current@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(successor@PCMusagemodelAbstractUserAction@pcmflatten, SUCCESSOR@current@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@current@ATT:OCL-Type), current@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(next:OCL-Type, PCMUSAGEMODELABSTRACTUSERACTION@PCMFLATTEN@next@CLASS:PCMusagemodelAbstractUserAction@pcmflatten, 
         _#_(
           _:_(predecessor@PCMusagemodelAbstractUserAction@pcmflatten, PREDECESSOR@next@ATT:OCL-Type), 
@@ -1787,8 +1787,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(current:OCL-Type, PCMUSAGEMODELABSTRACTUSERACTION@PCMFLATTEN@current@CLASS:PCMusagemodelAbstractUserAction@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@current@ATT:OCL-Type), 
-            _:_(successor@PCMusagemodelAbstractUserAction@pcmflatten, SUCCESSOR@current@ATT:OCL-Type), current@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(successor@PCMusagemodelAbstractUserAction@pcmflatten, SUCCESSOR@current@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@current@ATT:OCL-Type), current@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(next:OCL-Type, PCMUSAGEMODELABSTRACTUSERACTION@PCMFLATTEN@next@CLASS:PCMusagemodelAbstractUserAction@pcmflatten, 
           _#_(
             _:_(predecessor@PCMusagemodelAbstractUserAction@pcmflatten, PREDECESSOR@next@ATT:OCL-Type), 
@@ -1809,12 +1809,12 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(stop:OCL-Type, PCMUSAGEMODELSTOP@PCMFLATTEN@stop@CLASS:PCMusagemodelStop@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
-          _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
         _#_(
-          _:_(rtOb@PCMusagemodelScenarioBehaviour@pcmflatten, RTOB@scBeh@ATT:OCL-Type), 
-          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+          _:_(rtOb@PCMusagemodelScenarioBehaviour@pcmflatten, RTOB@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(sToken:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@sToken@CLASS:TOKENtokensUSToken@pcmflatten, 
         _#_(
           _:_(tsOb@TOKENtokensUSToken@pcmflatten, TSOB@sToken@ATT:OCL-Type), 
@@ -1837,12 +1837,12 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(stop:OCL-Type, PCMUSAGEMODELSTOP@PCMFLATTEN@stop@CLASS:PCMusagemodelStop@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
-            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
-            _:_(rtOb@PCMusagemodelScenarioBehaviour@pcmflatten, RTOB@scBeh@ATT:OCL-Type), 
-            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+            _:_(rtOb@PCMusagemodelScenarioBehaviour@pcmflatten, RTOB@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(sToken:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@sToken@CLASS:TOKENtokensUSToken@pcmflatten, 
           _#_(
             _:_(tsOb@TOKENtokensUSToken@pcmflatten, TSOB@sToken@ATT:OCL-Type), 
@@ -1873,14 +1873,14 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(elsc:OCL-Type, PCMUSAGEMODELENTRYLEVELSYSTEMCALL@PCMFLATTEN@elsc@CLASS:PCMusagemodelEntryLevelSystemCall@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), 
-          _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(signature:OCL-Type, PCMREPOSITORYOPERATIONSIGNATURE@PCMFLATTEN@signature@CLASS:PCMrepositoryOperationSignature@pcmflatten, signature@SFS:Set{@StructuralFeatureInstance}), 
       <_:_|_>(rdseff:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@rdseff@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
         _#_(
           _:_(describedService@-@@-@SEFF@PCMseffServiceEffectSpecification@pcmflatten, DESCRIBEDSERVICE@-@@-@SEFF@rdseff@ATT:OCL-Type), 
-          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@rdseff@ATT:OCL-Type), 
-          _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@rdseff@ATT:OCL-Type), rdseff@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@rdseff@ATT:OCL-Type), 
+          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@rdseff@ATT:OCL-Type), rdseff@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
         _#_(
           _:_(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, RESOURCEDEMANDINGBEHAVIOUR@-@ABSTRACTACTION@start@ATT:OCL-Type), 
@@ -1906,14 +1906,14 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(elsc:OCL-Type, PCMUSAGEMODELENTRYLEVELSYSTEMCALL@PCMFLATTEN@elsc@CLASS:PCMusagemodelEntryLevelSystemCall@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), 
-            _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(signature:OCL-Type, PCMREPOSITORYOPERATIONSIGNATURE@PCMFLATTEN@signature@CLASS:PCMrepositoryOperationSignature@pcmflatten, signature@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(rdseff:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@rdseff@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
           _#_(
             _:_(describedService@-@@-@SEFF@PCMseffServiceEffectSpecification@pcmflatten, DESCRIBEDSERVICE@-@@-@SEFF@rdseff@ATT:OCL-Type), 
-            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@rdseff@ATT:OCL-Type), 
-            _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@rdseff@ATT:OCL-Type), rdseff@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@rdseff@ATT:OCL-Type), 
+            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@rdseff@ATT:OCL-Type), rdseff@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
           _#_(
             _:_(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, RESOURCEDEMANDINGBEHAVIOUR@-@ABSTRACTACTION@start@ATT:OCL-Type), 
@@ -2146,8 +2146,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       <_:_|_>(calledSEFF:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@calledSEFF@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
         _#_(
           _:_(describedService@-@@-@SEFF@PCMseffServiceEffectSpecification@pcmflatten, DESCRIBEDSERVICE@-@@-@SEFF@calledSEFF@ATT:OCL-Type), 
-          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@calledSEFF@ATT:OCL-Type), 
-          _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@calledSEFF@ATT:OCL-Type), calledSEFF@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@calledSEFF@ATT:OCL-Type), 
+          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@calledSEFF@ATT:OCL-Type), calledSEFF@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
         _#_(
           _:_(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, RESOURCEDEMANDINGBEHAVIOUR@-@ABSTRACTACTION@start@ATT:OCL-Type), 
@@ -2161,9 +2161,9 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       <_:_|_>(orr:OCL-Type, PCMREPOSITORYOPERATIONREQUIREDROLE@PCMFLATTEN@orr@CLASS:PCMrepositoryOperationRequiredRole@pcmflatten, orr@SFS:Set{@StructuralFeatureInstance}), 
       <_:_|_>(ac:OCL-Type, PCMCOMPOSITIONASSEMBLYCONNECTOR@PCMFLATTEN@ac@CLASS:PCMcompositionAssemblyConnector@pcmflatten, 
         _#_(
-          _:_(requiredRole@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIREDROLE@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), 
           _:_(requiringAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIRINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), 
-          _:_(providingAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, PROVIDINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), ac@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(providingAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, PROVIDINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), 
+          _:_(requiredRole@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIREDROLE@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), ac@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(selfSEFF:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@selfSEFF@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
         _#_(
           _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@selfSEFF@ATT:OCL-Type), selfSEFF@SFS:Set{@StructuralFeatureInstance})), 
@@ -2195,8 +2195,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(calledSEFF:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@calledSEFF@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
           _#_(
             _:_(describedService@-@@-@SEFF@PCMseffServiceEffectSpecification@pcmflatten, DESCRIBEDSERVICE@-@@-@SEFF@calledSEFF@ATT:OCL-Type), 
-            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@calledSEFF@ATT:OCL-Type), 
-            _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@calledSEFF@ATT:OCL-Type), calledSEFF@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@calledSEFF@ATT:OCL-Type), 
+            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@calledSEFF@ATT:OCL-Type), calledSEFF@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
           _#_(
             _:_(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, RESOURCEDEMANDINGBEHAVIOUR@-@ABSTRACTACTION@start@ATT:OCL-Type), 
@@ -2210,9 +2210,9 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(orr:OCL-Type, PCMREPOSITORYOPERATIONREQUIREDROLE@PCMFLATTEN@orr@CLASS:PCMrepositoryOperationRequiredRole@pcmflatten, orr@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(ac:OCL-Type, PCMCOMPOSITIONASSEMBLYCONNECTOR@PCMFLATTEN@ac@CLASS:PCMcompositionAssemblyConnector@pcmflatten, 
           _#_(
-            _:_(requiredRole@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIREDROLE@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), 
             _:_(requiringAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIRINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), 
-            _:_(providingAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, PROVIDINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), ac@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(providingAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, PROVIDINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), 
+            _:_(requiredRole@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIREDROLE@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), ac@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(selfSEFF:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@selfSEFF@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
           _#_(
             _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@selfSEFF@ATT:OCL-Type), selfSEFF@SFS:Set{@StructuralFeatureInstance})), 
@@ -2484,8 +2484,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(elsc:OCL-Type, PCMUSAGEMODELENTRYLEVELSYSTEMCALL@PCMFLATTEN@elsc@CLASS:PCMusagemodelEntryLevelSystemCall@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), 
-          _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(signature:OCL-Type, PCMREPOSITORYOPERATIONSIGNATURE@PCMFLATTEN@signature@CLASS:PCMrepositoryOperationSignature@pcmflatten, signature@SFS:Set{@StructuralFeatureInstance}), 
       <_:_|_>(rdseff:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@rdseff@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
         _#_(
@@ -2513,8 +2513,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(elsc:OCL-Type, PCMUSAGEMODELENTRYLEVELSYSTEMCALL@PCMFLATTEN@elsc@CLASS:PCMusagemodelEntryLevelSystemCall@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), 
-            _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(signature:OCL-Type, PCMREPOSITORYOPERATIONSIGNATURE@PCMFLATTEN@signature@CLASS:PCMrepositoryOperationSignature@pcmflatten, signature@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(rdseff:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@rdseff@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
           _#_(
@@ -2566,8 +2566,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       <_:_|_>(PRT:OCL-Type, PCMRESOURCETYPEPROCESSINGRESOURCETYPE@PCMFLATTEN@PRT@CLASS:PCMresourcetypeProcessingResourceType@pcmflatten, PRT@SFS:Set{@StructuralFeatureInstance}), 
       <_:_|_>(PRS:OCL-Type, PCMRESOURCEENVIRONMENTPROCESSINGRESOURCESPECIFICATION@PCMFLATTEN@PRS@CLASS:PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, 
         _#_(
-          _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
           _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), 
+          _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
           _:_(queue@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, QUEUE@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(SP:OCL-Type, PCMRESOURCETYPESCHEDULINGPOLICY@PCMFLATTEN@SP@CLASS:PCMresourcetypeSchedulingPolicy@pcmflatten, 
         _#_(
@@ -2600,8 +2600,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(PRT:OCL-Type, PCMRESOURCETYPEPROCESSINGRESOURCETYPE@PCMFLATTEN@PRT@CLASS:PCMresourcetypeProcessingResourceType@pcmflatten, PRT@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(PRS:OCL-Type, PCMRESOURCEENVIRONMENTPROCESSINGRESOURCESPECIFICATION@PCMFLATTEN@PRS@CLASS:PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, 
           _#_(
-            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
             _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), 
+            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
             _:_(queue@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, QUEUE@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(SP:OCL-Type, PCMRESOURCETYPESCHEDULINGPOLICY@PCMFLATTEN@SP@CLASS:PCMresourcetypeSchedulingPolicy@pcmflatten, 
           _#_(
@@ -2628,16 +2628,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
           _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type), bA@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(bT:OCL-Type, PCMUSAGEMODELBRANCHTRANSITION@PCMFLATTEN@bT@CLASS:PCMusagemodelBranchTransition@pcmflatten, 
         _#_(
-          _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
-          _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
+          _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
         _#_(
-          _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
-          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+          _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(stop:OCL-Type, PCMUSAGEMODELSTOP@PCMFLATTEN@stop@CLASS:PCMusagemodelStop@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
-          _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(t:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@t@CLASS:TOKENtokensUSToken@pcmflatten, 
         _#_(
           _:_(completed@TOKENtokensUSToken@pcmflatten, COMPLETED@t@ATT:OCL-Type), t@SFS:Set{@StructuralFeatureInstance})), 
@@ -2656,16 +2656,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type), bA@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(bT:OCL-Type, PCMUSAGEMODELBRANCHTRANSITION@PCMFLATTEN@bT@CLASS:PCMusagemodelBranchTransition@pcmflatten, 
           _#_(
-            _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
-            _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
+            _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
-            _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
-            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+            _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(stop:OCL-Type, PCMUSAGEMODELSTOP@PCMFLATTEN@stop@CLASS:PCMusagemodelStop@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
-            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(t:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@t@CLASS:TOKENtokensUSToken@pcmflatten, 
           _#_(
             _:_(completed@TOKENtokensUSToken@pcmflatten, COMPLETED@t@ATT:OCL-Type), t@SFS:Set{@StructuralFeatureInstance})), 
@@ -2723,8 +2723,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(loop:OCL-Type, PCMUSAGEMODELLOOP@PCMFLATTEN@loop@CLASS:PCMusagemodelLoop@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), 
-          _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(sToken:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@sToken@CLASS:TOKENtokensUSToken@pcmflatten, 
         _#_(
           _:_(loopToken@TOKENtokensUSToken@pcmflatten, LOOPTOKEN@sToken@ATT:OCL-Type), 
@@ -2751,8 +2751,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(loop:OCL-Type, PCMUSAGEMODELLOOP@PCMFLATTEN@loop@CLASS:PCMusagemodelLoop@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), 
-            _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(sToken:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@sToken@CLASS:TOKENtokensUSToken@pcmflatten, 
           _#_(
             _:_(loopToken@TOKENtokensUSToken@pcmflatten, LOOPTOKEN@sToken@ATT:OCL-Type), 
@@ -2941,8 +2941,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
           _:_(branchBehaviour@-@BranchTransition@PCMseffAbstractBranchTransition@pcmflatten, BRANCHBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMSEFFRESOURCEDEMANDINGBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMseffResourceDemandingBehaviour@pcmflatten, 
         _#_(
-          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), 
-          _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), 
+          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
         _#_(
           _:_(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, RESOURCEDEMANDINGBEHAVIOUR@-@ABSTRACTACTION@start@ATT:OCL-Type), 
@@ -2972,8 +2972,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(branchBehaviour@-@BranchTransition@PCMseffAbstractBranchTransition@pcmflatten, BRANCHBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMSEFFRESOURCEDEMANDINGBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMseffResourceDemandingBehaviour@pcmflatten, 
           _#_(
-            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), 
-            _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), 
+            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
           _#_(
             _:_(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, RESOURCEDEMANDINGBEHAVIOUR@-@ABSTRACTACTION@start@ATT:OCL-Type), 
@@ -3005,8 +3005,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
           _:_(branchBehaviour@-@BranchTransition@PCMseffAbstractBranchTransition@pcmflatten, BRANCHBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMSEFFRESOURCEDEMANDINGBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMseffResourceDemandingBehaviour@pcmflatten, 
         _#_(
-          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), 
-          _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), 
+          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(stop:OCL-Type, PCMSEFFSTOPACTION@PCMFLATTEN@stop@CLASS:PCMseffStopAction@pcmflatten, 
         _#_(
           _:_(token@PCMseffAbstractAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
@@ -3033,8 +3033,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(branchBehaviour@-@BranchTransition@PCMseffAbstractBranchTransition@pcmflatten, BRANCHBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMSEFFRESOURCEDEMANDINGBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMseffResourceDemandingBehaviour@pcmflatten, 
           _#_(
-            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), 
-            _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), 
+            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(stop:OCL-Type, PCMSEFFSTOPACTION@PCMFLATTEN@stop@CLASS:PCMseffStopAction@pcmflatten, 
           _#_(
             _:_(token@PCMseffAbstractAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
@@ -3057,16 +3057,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(loop:OCL-Type, PCMUSAGEMODELLOOP@PCMFLATTEN@loop@CLASS:PCMusagemodelLoop@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), 
-          _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
         _#_(
           _:_(loop@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, LOOP@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
           _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(stop:OCL-Type, PCMUSAGEMODELSTOP@PCMFLATTEN@stop@CLASS:PCMusagemodelStop@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
-          _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(loopT:OCL-Type, TOKENTOKENSUSLOOPTOKEN@PCMFLATTEN@loopT@CLASS:TOKENtokensUSLoopToken@pcmflatten, 
         _#_(
           _:_(completed@TOKENtokensUSToken@pcmflatten, COMPLETED@loopT@ATT:OCL-Type), 
@@ -3086,16 +3086,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(loop:OCL-Type, PCMUSAGEMODELLOOP@PCMFLATTEN@loop@CLASS:PCMusagemodelLoop@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), 
-            _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
             _:_(loop@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, LOOP@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
             _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(stop:OCL-Type, PCMUSAGEMODELSTOP@PCMFLATTEN@stop@CLASS:PCMusagemodelStop@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
-            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(loopT:OCL-Type, TOKENTOKENSUSLOOPTOKEN@PCMFLATTEN@loopT@CLASS:TOKENtokensUSLoopToken@pcmflatten, 
           _#_(
             _:_(completed@TOKENtokensUSToken@pcmflatten, COMPLETED@loopT@ATT:OCL-Type), 
@@ -3120,16 +3120,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(bA:OCL-Type, PCMUSAGEMODELBRANCH@PCMFLATTEN@bA@CLASS:PCMusagemodelBranch@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type), 
-          _:_(branchTransitions@-@Branch@PCMusagemodelBranch@pcmflatten, BRANCHTRANSITIONS@-@BRANCH@bA@ATT:OCL-Type), bA@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(branchTransitions@-@Branch@PCMusagemodelBranch@pcmflatten, BRANCHTRANSITIONS@-@BRANCH@bA@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type), bA@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(bT:OCL-Type, PCMUSAGEMODELBRANCHTRANSITION@PCMFLATTEN@bT@CLASS:PCMusagemodelBranchTransition@pcmflatten, 
         _#_(
-          _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
-          _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
+          _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
         _#_(
-          _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
-          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+          _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(start:OCL-Type, PCMUSAGEMODELSTART@PCMFLATTEN@start@CLASS:PCMusagemodelStart@pcmflatten, 
         _#_(
           _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@start@ATT:OCL-Type), 
@@ -3150,16 +3150,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(bA:OCL-Type, PCMUSAGEMODELBRANCH@PCMFLATTEN@bA@CLASS:PCMusagemodelBranch@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type), 
-            _:_(branchTransitions@-@Branch@PCMusagemodelBranch@pcmflatten, BRANCHTRANSITIONS@-@BRANCH@bA@ATT:OCL-Type), bA@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(branchTransitions@-@Branch@PCMusagemodelBranch@pcmflatten, BRANCHTRANSITIONS@-@BRANCH@bA@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type), bA@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(bT:OCL-Type, PCMUSAGEMODELBRANCHTRANSITION@PCMFLATTEN@bT@CLASS:PCMusagemodelBranchTransition@pcmflatten, 
           _#_(
-            _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
-            _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
+            _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
-            _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
-            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+            _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(start:OCL-Type, PCMUSAGEMODELSTART@PCMFLATTEN@start@CLASS:PCMusagemodelStart@pcmflatten, 
           _#_(
             _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@start@ATT:OCL-Type), 
@@ -3391,8 +3391,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(PRT:OCL-Type, PCMRESOURCETYPEPROCESSINGRESOURCETYPE@PCMFLATTEN@PRT@CLASS:PCMresourcetypeProcessingResourceType@pcmflatten, PRT@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(PRS:OCL-Type, PCMRESOURCEENVIRONMENTPROCESSINGRESOURCESPECIFICATION@PCMFLATTEN@PRS@CLASS:PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, 
           _#_(
-            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
-            _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), 
+            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(Sch:OCL-Type, PCMRESOURCETYPESCHEDULINGPOLICY@PCMFLATTEN@Sch@CLASS:PCMresourcetypeSchedulingPolicy@pcmflatten, 
           _#_(
             _:_(id@IDENTIFIERidentifierIdentifier@pcmflatten, ID@Sch@ATT:OCL-Type), Sch@SFS:Set{@StructuralFeatureInstance})), 
@@ -3419,8 +3419,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(PRT:OCL-Type, PCMRESOURCETYPEPROCESSINGRESOURCETYPE@PCMFLATTEN@PRT@CLASS:PCMresourcetypeProcessingResourceType@pcmflatten, PRT@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(PRS:OCL-Type, PCMRESOURCEENVIRONMENTPROCESSINGRESOURCESPECIFICATION@PCMFLATTEN@PRS@CLASS:PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, 
           _#_(
-            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
-            _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), 
+            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(Sch:OCL-Type, PCMRESOURCETYPESCHEDULINGPOLICY@PCMFLATTEN@Sch@CLASS:PCMresourcetypeSchedulingPolicy@pcmflatten, 
           _#_(
             _:_(id@IDENTIFIERidentifierIdentifier@pcmflatten, ID@Sch@ATT:OCL-Type), Sch@SFS:Set{@StructuralFeatureInstance})), 
@@ -3486,8 +3486,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       <_:_|_>(PRT:OCL-Type, PCMRESOURCETYPEPROCESSINGRESOURCETYPE@PCMFLATTEN@PRT@CLASS:PCMresourcetypeProcessingResourceType@pcmflatten, PRT@SFS:Set{@StructuralFeatureInstance}), 
       <_:_|_>(PRS:OCL-Type, PCMRESOURCEENVIRONMENTPROCESSINGRESOURCESPECIFICATION@PCMFLATTEN@PRS@CLASS:PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, 
         _#_(
-          _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
-          _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), 
+          _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(Sch:OCL-Type, PCMRESOURCETYPESCHEDULINGPOLICY@PCMFLATTEN@Sch@CLASS:PCMresourcetypeSchedulingPolicy@pcmflatten, 
         _#_(
           _:_(id@IDENTIFIERidentifierIdentifier@pcmflatten, ID@Sch@ATT:OCL-Type), Sch@SFS:Set{@StructuralFeatureInstance})), 
@@ -3541,8 +3541,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(PRS:OCL-Type, PCMRESOURCEENVIRONMENTPROCESSINGRESOURCESPECIFICATION@PCMFLATTEN@PRS@CLASS:PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, 
           _#_(
             _:_(queue@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, QUEUE@PRS@ATT:OCL-Type), 
-            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
-            _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), 
+            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(Sch:OCL-Type, PCMRESOURCETYPESCHEDULINGPOLICY@PCMFLATTEN@Sch@CLASS:PCMresourcetypeSchedulingPolicy@pcmflatten, Sch@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(t:OCL-Type, TOKENTOKENSSEFFTOKEN@PCMFLATTEN@t@CLASS:TOKENtokensSEFFToken@pcmflatten, 
           _#_(
@@ -3604,8 +3604,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(PRT:OCL-Type, PCMRESOURCETYPEPROCESSINGRESOURCETYPE@PCMFLATTEN@PRT@CLASS:PCMresourcetypeProcessingResourceType@pcmflatten, PRT@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(PRS:OCL-Type, PCMRESOURCEENVIRONMENTPROCESSINGRESOURCESPECIFICATION@PCMFLATTEN@PRS@CLASS:PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, 
           _#_(
-            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, update(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type, nil, link(PRT:OCL-Type, null))), 
             _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, update(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type, nil, link(Sch:OCL-Type, null))), 
+            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, update(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type, nil, link(PRT:OCL-Type, null))), 
             _:_(queue@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, eval(_->`excluding`(_`)(
       __(PRS:OCL-Type, ._(queue@OCLSf)), t:OCL-Type), env(_<-_(self, PRS:OCL-Type)), MODEL@:@Model)), PRS@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(Sch:OCL-Type, PCMRESOURCETYPESCHEDULINGPOLICY@PCMFLATTEN@Sch@CLASS:PCMresourcetypeSchedulingPolicy@pcmflatten, Sch@SFS:Set{@StructuralFeatureInstance}), 
@@ -3632,8 +3632,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       <_:_|_>(PRS:OCL-Type, PCMRESOURCEENVIRONMENTPROCESSINGRESOURCESPECIFICATION@PCMFLATTEN@PRS@CLASS:PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, 
         _#_(
           _:_(queue@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, QUEUE@PRS@ATT:OCL-Type), 
-          _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
-          _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), 
+          _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(Sch:OCL-Type, PCMRESOURCETYPESCHEDULINGPOLICY@PCMFLATTEN@Sch@CLASS:PCMresourcetypeSchedulingPolicy@pcmflatten, Sch@SFS:Set{@StructuralFeatureInstance}), 
       <_:_|_>(t:OCL-Type, TOKENTOKENSSEFFTOKEN@PCMFLATTEN@t@CLASS:TOKENtokensSEFFToken@pcmflatten, 
         _#_(
@@ -3747,8 +3747,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(scenarioBehaviour@-@UsageScenario@PCMusagemodelUsageScenario@pcmflatten, SCENARIOBEHAVIOUR@-@USAGESCENARIO@usSc@ATT:OCL-Type), usSc@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
-            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
-            _:_(usageScenario@-@SenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, USAGESCENARIO@-@SENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(usageScenario@-@SenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, USAGESCENARIO@-@SENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(st:OCL-Type, TOKENTOKENSSANDTIMER@PCMFLATTEN@st@CLASS:TOKENtokensSandTimer@pcmflatten, 
           _#_(
             _:_(countDown@TOKENtokensSandTimer@pcmflatten, COUNTDOWN@st@ATT:OCL-Type), st@SFS:Set{@StructuralFeatureInstance})), 
@@ -3763,8 +3763,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(start:OCL-Type, PCMUSAGEMODELSTART@PCMFLATTEN@start@CLASS:PCMusagemodelStart@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@start@ATT:OCL-Type, nil, link(t:OCL-Type, null))), 
-            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, update(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@start@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), start@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, update(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@start@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@start@ATT:OCL-Type, nil, link(t:OCL-Type, null))), start@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(ow:OCL-Type, PCMUSAGEMODELOPENWORKLOAD@PCMFLATTEN@ow@CLASS:PCMusagemodelOpenWorkload@pcmflatten, 
           _#_(
             _:_(sandTimer@PCMusagemodelOpenWorkload@pcmflatten, update(sandTimer@PCMusagemodelOpenWorkload@pcmflatten, SANDTIMER@ow@ATT:OCL-Type, nil, link(st:OCL-Type, null))), 
@@ -3775,8 +3775,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(scenarioBehaviour@-@UsageScenario@PCMusagemodelUsageScenario@pcmflatten, update(scenarioBehaviour@-@UsageScenario@PCMusagemodelUsageScenario@pcmflatten, SCENARIOBEHAVIOUR@-@USAGESCENARIO@usSc@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), usSc@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
-            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(start:OCL-Type, null))), 
-            _:_(usageScenario@-@SenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(usageScenario@-@SenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, USAGESCENARIO@-@SENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(usSc:OCL-Type, null))), scBeh@SFS:Set{@StructuralFeatureInstance})), complete(
+            _:_(usageScenario@-@SenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(usageScenario@-@SenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, USAGESCENARIO@-@SENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(usSc:OCL-Type, null))), 
+            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(start:OCL-Type, null))), scBeh@SFS:Set{@StructuralFeatureInstance})), complete(
         <_:_|_>(t:OCL-Type, TOKENtokensUSToken@pcmflatten, 
             _:_(tsOb@TOKENtokensUSToken@pcmflatten, update(tsOb@TOKENtokensUSToken@pcmflatten, null, nil, link(ts:OCL-Type, null))))), 
         <_:_|_>(st:OCL-Type, TOKENTOKENSSANDTIMER@PCMFLATTEN@st@CLASS:TOKENtokensSandTimer@pcmflatten, 
@@ -3808,8 +3808,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
           _:_(scenarioBehaviour@-@UsageScenario@PCMusagemodelUsageScenario@pcmflatten, SCENARIOBEHAVIOUR@-@USAGESCENARIO@usSc@ATT:OCL-Type), usSc@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
         _#_(
-          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
-          _:_(usageScenario@-@SenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, USAGESCENARIO@-@SENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(usageScenario@-@SenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, USAGESCENARIO@-@SENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(st:OCL-Type, TOKENTOKENSSANDTIMER@PCMFLATTEN@st@CLASS:TOKENtokensSandTimer@pcmflatten, 
         _#_(
           _:_(countDown@TOKENtokensSandTimer@pcmflatten, COUNTDOWN@st@ATT:OCL-Type), st@SFS:Set{@StructuralFeatureInstance})), 
@@ -3893,8 +3893,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(current:OCL-Type, PCMUSAGEMODELABSTRACTUSERACTION@PCMFLATTEN@current@CLASS:PCMusagemodelAbstractUserAction@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@current@ATT:OCL-Type), 
-            _:_(successor@PCMusagemodelAbstractUserAction@pcmflatten, SUCCESSOR@current@ATT:OCL-Type), current@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(successor@PCMusagemodelAbstractUserAction@pcmflatten, SUCCESSOR@current@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@current@ATT:OCL-Type), current@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(next:OCL-Type, PCMUSAGEMODELABSTRACTUSERACTION@PCMFLATTEN@next@CLASS:PCMusagemodelAbstractUserAction@pcmflatten, 
           _#_(
             _:_(predecessor@PCMusagemodelAbstractUserAction@pcmflatten, PREDECESSOR@next@ATT:OCL-Type), 
@@ -3917,8 +3917,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@current@ATT:OCL-Type, link(sToken:OCL-Type, null), nil)), current@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(next:OCL-Type, PCMUSAGEMODELABSTRACTUSERACTION@PCMFLATTEN@next@CLASS:PCMusagemodelAbstractUserAction@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@next@ATT:OCL-Type, nil, link(sToken:OCL-Type, null))), 
-            _:_(predecessor@PCMusagemodelAbstractUserAction@pcmflatten, update(predecessor@PCMusagemodelAbstractUserAction@pcmflatten, PREDECESSOR@next@ATT:OCL-Type, nil, link(current:OCL-Type, null))), next@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(predecessor@PCMusagemodelAbstractUserAction@pcmflatten, update(predecessor@PCMusagemodelAbstractUserAction@pcmflatten, PREDECESSOR@next@ATT:OCL-Type, nil, link(current:OCL-Type, null))), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@next@ATT:OCL-Type, nil, link(sToken:OCL-Type, null))), next@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(sToken:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@sToken@CLASS:TOKENtokensUSToken@pcmflatten, 
           _#_(
             _:_(completed@TOKENtokensUSToken@pcmflatten, eval(false, env(_<-_(self, sToken:OCL-Type)), MODEL@:@Model)), sToken@SFS:Set{@StructuralFeatureInstance})), 
@@ -3933,8 +3933,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(current:OCL-Type, PCMUSAGEMODELABSTRACTUSERACTION@PCMFLATTEN@current@CLASS:PCMusagemodelAbstractUserAction@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@current@ATT:OCL-Type), 
-          _:_(successor@PCMusagemodelAbstractUserAction@pcmflatten, SUCCESSOR@current@ATT:OCL-Type), current@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(successor@PCMusagemodelAbstractUserAction@pcmflatten, SUCCESSOR@current@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@current@ATT:OCL-Type), current@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(next:OCL-Type, PCMUSAGEMODELABSTRACTUSERACTION@PCMFLATTEN@next@CLASS:PCMusagemodelAbstractUserAction@pcmflatten, 
         _#_(
           _:_(predecessor@PCMusagemodelAbstractUserAction@pcmflatten, PREDECESSOR@next@ATT:OCL-Type), 
@@ -3961,12 +3961,12 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(stop:OCL-Type, PCMUSAGEMODELSTOP@PCMFLATTEN@stop@CLASS:PCMusagemodelStop@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
-            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
-            _:_(rtOb@PCMusagemodelScenarioBehaviour@pcmflatten, RTOB@scBeh@ATT:OCL-Type), 
-            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+            _:_(rtOb@PCMusagemodelScenarioBehaviour@pcmflatten, RTOB@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(sToken:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@sToken@CLASS:TOKENtokensUSToken@pcmflatten, 
           _#_(
             _:_(tsOb@TOKENtokensUSToken@pcmflatten, TSOB@sToken@ATT:OCL-Type), 
@@ -3993,8 +3993,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type, link(sToken:OCL-Type, null), nil)), stop@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
-            _:_(rtOb@PCMusagemodelScenarioBehaviour@pcmflatten, update(rtOb@PCMusagemodelScenarioBehaviour@pcmflatten, RTOB@scBeh@ATT:OCL-Type, nil, link(rt:OCL-Type, null))), 
-            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(stop:OCL-Type, null))), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(stop:OCL-Type, null))), 
+            _:_(rtOb@PCMusagemodelScenarioBehaviour@pcmflatten, update(rtOb@PCMusagemodelScenarioBehaviour@pcmflatten, RTOB@scBeh@ATT:OCL-Type, nil, link(rt:OCL-Type, null))), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(rt:OCL-Type, OBRESPONSETIME@PCMFLATTEN@rt@CLASS:ObResponseTime@pcmflatten, 
           _#_(
             _:_(counter@ObResponseTime@pcmflatten, eval(_+_(
@@ -4022,12 +4022,12 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(stop:OCL-Type, PCMUSAGEMODELSTOP@PCMFLATTEN@stop@CLASS:PCMusagemodelStop@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
-          _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
         _#_(
-          _:_(rtOb@PCMusagemodelScenarioBehaviour@pcmflatten, RTOB@scBeh@ATT:OCL-Type), 
-          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+          _:_(rtOb@PCMusagemodelScenarioBehaviour@pcmflatten, RTOB@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(sToken:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@sToken@CLASS:TOKENtokensUSToken@pcmflatten, 
         _#_(
           _:_(tsOb@TOKENtokensUSToken@pcmflatten, TSOB@sToken@ATT:OCL-Type), 
@@ -4066,14 +4066,14 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(elsc:OCL-Type, PCMUSAGEMODELENTRYLEVELSYSTEMCALL@PCMFLATTEN@elsc@CLASS:PCMusagemodelEntryLevelSystemCall@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), 
-            _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(signature:OCL-Type, PCMREPOSITORYOPERATIONSIGNATURE@PCMFLATTEN@signature@CLASS:PCMrepositoryOperationSignature@pcmflatten, signature@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(rdseff:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@rdseff@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
           _#_(
             _:_(describedService@-@@-@SEFF@PCMseffServiceEffectSpecification@pcmflatten, DESCRIBEDSERVICE@-@@-@SEFF@rdseff@ATT:OCL-Type), 
-            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@rdseff@ATT:OCL-Type), 
-            _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@rdseff@ATT:OCL-Type), rdseff@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@rdseff@ATT:OCL-Type), 
+            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@rdseff@ATT:OCL-Type), rdseff@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
           _#_(
             _:_(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, RESOURCEDEMANDINGBEHAVIOUR@-@ABSTRACTACTION@start@ATT:OCL-Type), 
@@ -4099,14 +4099,14 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(elsc:OCL-Type, PCMUSAGEMODELENTRYLEVELSYSTEMCALL@PCMFLATTEN@elsc@CLASS:PCMusagemodelEntryLevelSystemCall@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type, nil, link(sToken:OCL-Type, null))), 
-            _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, update(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type, nil, link(signature:OCL-Type, null))), elsc@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, update(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type, nil, link(signature:OCL-Type, null))), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type, nil, link(sToken:OCL-Type, null))), elsc@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(signature:OCL-Type, PCMREPOSITORYOPERATIONSIGNATURE@PCMFLATTEN@signature@CLASS:PCMrepositoryOperationSignature@pcmflatten, signature@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(rdseff:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@rdseff@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
           _#_(
             _:_(describedService@-@@-@SEFF@PCMseffServiceEffectSpecification@pcmflatten, update(describedService@-@@-@SEFF@PCMseffServiceEffectSpecification@pcmflatten, DESCRIBEDSERVICE@-@@-@SEFF@rdseff@ATT:OCL-Type, nil, link(signature:OCL-Type, null))), 
-            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, update(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@rdseff@ATT:OCL-Type, nil, link(start:OCL-Type, null))), 
-            _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, update(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@rdseff@ATT:OCL-Type, nil, link(basicComp:OCL-Type, null))), rdseff@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, update(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@rdseff@ATT:OCL-Type, nil, link(basicComp:OCL-Type, null))), 
+            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, update(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@rdseff@ATT:OCL-Type, nil, link(start:OCL-Type, null))), rdseff@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
           _#_(
             _:_(token@PCMseffAbstractAction@pcmflatten, update(token@PCMseffAbstractAction@pcmflatten, TOKEN@start@ATT:OCL-Type, nil, link(compToken:OCL-Type, null))), 
@@ -4138,14 +4138,14 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(elsc:OCL-Type, PCMUSAGEMODELENTRYLEVELSYSTEMCALL@PCMFLATTEN@elsc@CLASS:PCMusagemodelEntryLevelSystemCall@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), 
-          _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(signature:OCL-Type, PCMREPOSITORYOPERATIONSIGNATURE@PCMFLATTEN@signature@CLASS:PCMrepositoryOperationSignature@pcmflatten, signature@SFS:Set{@StructuralFeatureInstance}), 
       <_:_|_>(rdseff:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@rdseff@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
         _#_(
           _:_(describedService@-@@-@SEFF@PCMseffServiceEffectSpecification@pcmflatten, DESCRIBEDSERVICE@-@@-@SEFF@rdseff@ATT:OCL-Type), 
-          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@rdseff@ATT:OCL-Type), 
-          _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@rdseff@ATT:OCL-Type), rdseff@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@rdseff@ATT:OCL-Type), 
+          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@rdseff@ATT:OCL-Type), rdseff@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
         _#_(
           _:_(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, RESOURCEDEMANDINGBEHAVIOUR@-@ABSTRACTACTION@start@ATT:OCL-Type), 
@@ -4498,8 +4498,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(calledSEFF:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@calledSEFF@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
           _#_(
             _:_(describedService@-@@-@SEFF@PCMseffServiceEffectSpecification@pcmflatten, DESCRIBEDSERVICE@-@@-@SEFF@calledSEFF@ATT:OCL-Type), 
-            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@calledSEFF@ATT:OCL-Type), 
-            _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@calledSEFF@ATT:OCL-Type), calledSEFF@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@calledSEFF@ATT:OCL-Type), 
+            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@calledSEFF@ATT:OCL-Type), calledSEFF@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
           _#_(
             _:_(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, RESOURCEDEMANDINGBEHAVIOUR@-@ABSTRACTACTION@start@ATT:OCL-Type), 
@@ -4513,9 +4513,9 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(orr:OCL-Type, PCMREPOSITORYOPERATIONREQUIREDROLE@PCMFLATTEN@orr@CLASS:PCMrepositoryOperationRequiredRole@pcmflatten, orr@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(ac:OCL-Type, PCMCOMPOSITIONASSEMBLYCONNECTOR@PCMFLATTEN@ac@CLASS:PCMcompositionAssemblyConnector@pcmflatten, 
           _#_(
-            _:_(requiredRole@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIREDROLE@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), 
             _:_(requiringAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIRINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), 
-            _:_(providingAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, PROVIDINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), ac@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(providingAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, PROVIDINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), 
+            _:_(requiredRole@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIREDROLE@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), ac@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(selfSEFF:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@selfSEFF@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
           _#_(
             _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@selfSEFF@ATT:OCL-Type), selfSEFF@SFS:Set{@StructuralFeatureInstance})), 
@@ -4547,8 +4547,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(calledSEFF:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@calledSEFF@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
           _#_(
             _:_(describedService@-@@-@SEFF@PCMseffServiceEffectSpecification@pcmflatten, update(describedService@-@@-@SEFF@PCMseffServiceEffectSpecification@pcmflatten, DESCRIBEDSERVICE@-@@-@SEFF@calledSEFF@ATT:OCL-Type, nil, link(sign:OCL-Type, null))), 
-            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, update(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@calledSEFF@ATT:OCL-Type, nil, link(start:OCL-Type, null))), 
-            _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, update(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@calledSEFF@ATT:OCL-Type, nil, link(calledBasicComp:OCL-Type, null))), calledSEFF@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, update(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@calledSEFF@ATT:OCL-Type, nil, link(calledBasicComp:OCL-Type, null))), 
+            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, update(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@calledSEFF@ATT:OCL-Type, nil, link(start:OCL-Type, null))), calledSEFF@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
           _#_(
             _:_(token@PCMseffAbstractAction@pcmflatten, update(token@PCMseffAbstractAction@pcmflatten, TOKEN@start@ATT:OCL-Type, nil, link(newToken:OCL-Type, null))), 
@@ -4578,9 +4578,9 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(orr:OCL-Type, PCMREPOSITORYOPERATIONREQUIREDROLE@PCMFLATTEN@orr@CLASS:PCMrepositoryOperationRequiredRole@pcmflatten, orr@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(ac:OCL-Type, PCMCOMPOSITIONASSEMBLYCONNECTOR@PCMFLATTEN@ac@CLASS:PCMcompositionAssemblyConnector@pcmflatten, 
           _#_(
-            _:_(requiredRole@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, update(requiredRole@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIREDROLE@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type, nil, link(orr:OCL-Type, null))), 
             _:_(requiringAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, update(requiringAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIRINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type, nil, link(selfCtx:OCL-Type, null))), 
-            _:_(providingAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, update(providingAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, PROVIDINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type, nil, link(calledAllCtx:OCL-Type, null))), ac@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(providingAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, update(providingAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, PROVIDINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type, nil, link(calledAllCtx:OCL-Type, null))), 
+            _:_(requiredRole@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, update(requiredRole@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIREDROLE@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type, nil, link(orr:OCL-Type, null))), ac@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(CLK@:Oid, Clock@MGBehavior, 
             _:_(time@Clock@MGBehavior, TIME@CLK@:Time)), 
         <_:_|_>(oid('rdm@), Counter@MGBehavior, 
@@ -4603,8 +4603,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       <_:_|_>(calledSEFF:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@calledSEFF@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
         _#_(
           _:_(describedService@-@@-@SEFF@PCMseffServiceEffectSpecification@pcmflatten, DESCRIBEDSERVICE@-@@-@SEFF@calledSEFF@ATT:OCL-Type), 
-          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@calledSEFF@ATT:OCL-Type), 
-          _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@calledSEFF@ATT:OCL-Type), calledSEFF@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@calledSEFF@ATT:OCL-Type), 
+          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@calledSEFF@ATT:OCL-Type), calledSEFF@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
         _#_(
           _:_(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, RESOURCEDEMANDINGBEHAVIOUR@-@ABSTRACTACTION@start@ATT:OCL-Type), 
@@ -4618,9 +4618,9 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       <_:_|_>(orr:OCL-Type, PCMREPOSITORYOPERATIONREQUIREDROLE@PCMFLATTEN@orr@CLASS:PCMrepositoryOperationRequiredRole@pcmflatten, orr@SFS:Set{@StructuralFeatureInstance}), 
       <_:_|_>(ac:OCL-Type, PCMCOMPOSITIONASSEMBLYCONNECTOR@PCMFLATTEN@ac@CLASS:PCMcompositionAssemblyConnector@pcmflatten, 
         _#_(
-          _:_(requiredRole@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIREDROLE@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), 
           _:_(requiringAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIRINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), 
-          _:_(providingAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, PROVIDINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), ac@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(providingAssemblyContext@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, PROVIDINGASSEMBLYCONTEXT@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), 
+          _:_(requiredRole@-@AssemblyConnector@PCMcompositionAssemblyConnector@pcmflatten, REQUIREDROLE@-@ASSEMBLYCONNECTOR@ac@ATT:OCL-Type), ac@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(selfSEFF:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@selfSEFF@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
         _#_(
           _:_(basicComponent@-@ServiceEffectSpecification@PCMseffServiceEffectSpecification@pcmflatten, BASICCOMPONENT@-@SERVICEEFFECTSPECIFICATION@selfSEFF@ATT:OCL-Type), selfSEFF@SFS:Set{@StructuralFeatureInstance})), 
@@ -5056,8 +5056,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(elsc:OCL-Type, PCMUSAGEMODELENTRYLEVELSYSTEMCALL@PCMFLATTEN@elsc@CLASS:PCMusagemodelEntryLevelSystemCall@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), 
-            _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(signature:OCL-Type, PCMREPOSITORYOPERATIONSIGNATURE@PCMFLATTEN@signature@CLASS:PCMrepositoryOperationSignature@pcmflatten, signature@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(rdseff:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@rdseff@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
           _#_(
@@ -5085,8 +5085,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(elsc:OCL-Type, PCMUSAGEMODELENTRYLEVELSYSTEMCALL@PCMFLATTEN@elsc@CLASS:PCMusagemodelEntryLevelSystemCall@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type, nil, link(sToken:OCL-Type, null))), 
-            _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, update(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type, nil, link(signature:OCL-Type, null))), elsc@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, update(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type, nil, link(signature:OCL-Type, null))), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type, nil, link(sToken:OCL-Type, null))), elsc@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(signature:OCL-Type, PCMREPOSITORYOPERATIONSIGNATURE@PCMFLATTEN@signature@CLASS:PCMrepositoryOperationSignature@pcmflatten, signature@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(rdseff:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@rdseff@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
           _#_(
@@ -5114,8 +5114,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(elsc:OCL-Type, PCMUSAGEMODELENTRYLEVELSYSTEMCALL@PCMFLATTEN@elsc@CLASS:PCMusagemodelEntryLevelSystemCall@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), 
-          _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(operationSignature@-@@-@EntryLevelSystemCall@PCMusagemodelEntryLevelSystemCall@pcmflatten, OPERATIONSIGNATURE@-@@-@ENTRYLEVELSYSTEMCALL@elsc@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@elsc@ATT:OCL-Type), elsc@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(signature:OCL-Type, PCMREPOSITORYOPERATIONSIGNATURE@PCMFLATTEN@signature@CLASS:PCMrepositoryOperationSignature@pcmflatten, signature@SFS:Set{@StructuralFeatureInstance}), 
       <_:_|_>(rdseff:OCL-Type, PCMSEFFRESOURCEDEMANDINGSEFF@PCMFLATTEN@rdseff@CLASS:PCMseffResourceDemandingSEFF@pcmflatten, 
         _#_(
@@ -5176,8 +5176,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(PRT:OCL-Type, PCMRESOURCETYPEPROCESSINGRESOURCETYPE@PCMFLATTEN@PRT@CLASS:PCMresourcetypeProcessingResourceType@pcmflatten, PRT@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(PRS:OCL-Type, PCMRESOURCEENVIRONMENTPROCESSINGRESOURCESPECIFICATION@PCMFLATTEN@PRS@CLASS:PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, 
           _#_(
-            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
             _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), 
+            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
             _:_(queue@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, QUEUE@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(SP:OCL-Type, PCMRESOURCETYPESCHEDULINGPOLICY@PCMFLATTEN@SP@CLASS:PCMresourcetypeSchedulingPolicy@pcmflatten, 
           _#_(
@@ -5210,8 +5210,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
         <_:_|_>(PRT:OCL-Type, PCMRESOURCETYPEPROCESSINGRESOURCETYPE@PCMFLATTEN@PRT@CLASS:PCMresourcetypeProcessingResourceType@pcmflatten, PRT@SFS:Set{@StructuralFeatureInstance}), 
         <_:_|_>(PRS:OCL-Type, PCMRESOURCEENVIRONMENTPROCESSINGRESOURCESPECIFICATION@PCMFLATTEN@PRS@CLASS:PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, 
           _#_(
-            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, update(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type, nil, link(PRT:OCL-Type, null))), 
             _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, update(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type, nil, link(SP:OCL-Type, null))), 
+            _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, update(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type, nil, link(PRT:OCL-Type, null))), 
             _:_(queue@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, eval(_->`append`(_`)(
       __(PRS:OCL-Type, ._(queue@OCLSf)), t:OCL-Type), env(_<-_(self, PRS:OCL-Type)), MODEL@:@Model)), PRS@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(SP:OCL-Type, PCMRESOURCETYPESCHEDULINGPOLICY@PCMFLATTEN@SP@CLASS:PCMresourcetypeSchedulingPolicy@pcmflatten, 
@@ -5245,8 +5245,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       <_:_|_>(PRT:OCL-Type, PCMRESOURCETYPEPROCESSINGRESOURCETYPE@PCMFLATTEN@PRT@CLASS:PCMresourcetypeProcessingResourceType@pcmflatten, PRT@SFS:Set{@StructuralFeatureInstance}), 
       <_:_|_>(PRS:OCL-Type, PCMRESOURCEENVIRONMENTPROCESSINGRESOURCESPECIFICATION@PCMFLATTEN@PRS@CLASS:PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, 
         _#_(
-          _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
           _:_(schedulingPolicy@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, SCHEDULINGPOLICY@PRS@ATT:OCL-Type), 
+          _:_(activeResourceType@-@ActiveResourceSpecification@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, ACTIVERESOURCETYPE@-@ACTIVERESOURCESPECIFICATION@PRS@ATT:OCL-Type), 
           _:_(queue@PCMresourceenvironmentProcessingResourceSpecification@pcmflatten, QUEUE@PRS@ATT:OCL-Type), PRS@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(SP:OCL-Type, PCMRESOURCETYPESCHEDULINGPOLICY@PCMFLATTEN@SP@CLASS:PCMresourcetypeSchedulingPolicy@pcmflatten, 
         _#_(
@@ -5283,16 +5283,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type), bA@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(bT:OCL-Type, PCMUSAGEMODELBRANCHTRANSITION@PCMFLATTEN@bT@CLASS:PCMusagemodelBranchTransition@pcmflatten, 
           _#_(
-            _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
-            _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
+            _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
-            _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
-            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+            _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(stop:OCL-Type, PCMUSAGEMODELSTOP@PCMFLATTEN@stop@CLASS:PCMusagemodelStop@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
-            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(t:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@t@CLASS:TOKENtokensUSToken@pcmflatten, 
           _#_(
             _:_(completed@TOKENtokensUSToken@pcmflatten, COMPLETED@t@ATT:OCL-Type), t@SFS:Set{@StructuralFeatureInstance})), 
@@ -5307,16 +5307,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(bA:OCL-Type, PCMUSAGEMODELBRANCH@PCMFLATTEN@bA@CLASS:PCMusagemodelBranch@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type, nil, link(t:OCL-Type, null))), 
-            _:_(branchTransitions@-@Branch@PCMusagemodelBranch@pcmflatten, update(branchTransitions@-@Branch@PCMusagemodelBranch@pcmflatten, BRANCHTRANSITIONS@-@BRANCH@bA@ATT:OCL-Type, nil, link(bT:OCL-Type, null))), bA@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(branchTransitions@-@Branch@PCMusagemodelBranch@pcmflatten, update(branchTransitions@-@Branch@PCMusagemodelBranch@pcmflatten, BRANCHTRANSITIONS@-@BRANCH@bA@ATT:OCL-Type, nil, link(bT:OCL-Type, null))), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type, nil, link(t:OCL-Type, null))), bA@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(bT:OCL-Type, PCMUSAGEMODELBRANCHTRANSITION@PCMFLATTEN@bT@CLASS:PCMusagemodelBranchTransition@pcmflatten, 
           _#_(
-            _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, update(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type, nil, link(bA:OCL-Type, null))), 
-            _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, update(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), bT@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, update(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), 
+            _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, update(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type, nil, link(bA:OCL-Type, null))), bT@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
-            _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(bT:OCL-Type, null))), 
-            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(stop:OCL-Type, null))), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(stop:OCL-Type, null))), 
+            _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(bT:OCL-Type, null))), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(stop:OCL-Type, PCMUSAGEMODELSTOP@PCMFLATTEN@stop@CLASS:PCMusagemodelStop@pcmflatten, 
           _#_(
             _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, update(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), 
@@ -5339,16 +5339,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
           _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type), bA@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(bT:OCL-Type, PCMUSAGEMODELBRANCHTRANSITION@PCMFLATTEN@bT@CLASS:PCMusagemodelBranchTransition@pcmflatten, 
         _#_(
-          _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
-          _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
+          _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
         _#_(
-          _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
-          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+          _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(stop:OCL-Type, PCMUSAGEMODELSTOP@PCMFLATTEN@stop@CLASS:PCMusagemodelStop@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
-          _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(t:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@t@CLASS:TOKENtokensUSToken@pcmflatten, 
         _#_(
           _:_(completed@TOKENtokensUSToken@pcmflatten, COMPLETED@t@ATT:OCL-Type), t@SFS:Set{@StructuralFeatureInstance})), 
@@ -5438,8 +5438,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(loop:OCL-Type, PCMUSAGEMODELLOOP@PCMFLATTEN@loop@CLASS:PCMusagemodelLoop@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), 
-            _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(sToken:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@sToken@CLASS:TOKENtokensUSToken@pcmflatten, 
           _#_(
             _:_(loopToken@TOKENtokensUSToken@pcmflatten, LOOPTOKEN@sToken@ATT:OCL-Type), 
@@ -5466,16 +5466,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(loop:OCL-Type, PCMUSAGEMODELLOOP@PCMFLATTEN@loop@CLASS:PCMusagemodelLoop@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type, nil, link(sToken:OCL-Type, null))), 
-            _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, update(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), loop@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, update(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type, nil, link(sToken:OCL-Type, null))), loop@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
             _:_(loop@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(loop@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, LOOP@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(loop:OCL-Type, null))), 
             _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(start:OCL-Type, null))), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(start:OCL-Type, PCMUSAGEMODELSTART@PCMFLATTEN@start@CLASS:PCMusagemodelStart@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@start@ATT:OCL-Type, nil, link(loopT:OCL-Type, null))), 
-            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, update(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@start@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), start@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, update(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@start@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@start@ATT:OCL-Type, nil, link(loopT:OCL-Type, null))), start@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(sToken:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@sToken@CLASS:TOKENtokensUSToken@pcmflatten, 
           _#_(
             _:_(loopToken@TOKENtokensUSToken@pcmflatten, update(loopToken@TOKENtokensUSToken@pcmflatten, LOOPTOKEN@sToken@ATT:OCL-Type, nil, link(loopT:OCL-Type, null))), 
@@ -5494,8 +5494,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(loop:OCL-Type, PCMUSAGEMODELLOOP@PCMFLATTEN@loop@CLASS:PCMusagemodelLoop@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), 
-          _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(sToken:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@sToken@CLASS:TOKENtokensUSToken@pcmflatten, 
         _#_(
           _:_(loopToken@TOKENtokensUSToken@pcmflatten, LOOPTOKEN@sToken@ATT:OCL-Type), 
@@ -5775,8 +5775,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(branchBehaviour@-@BranchTransition@PCMseffAbstractBranchTransition@pcmflatten, BRANCHBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMSEFFRESOURCEDEMANDINGBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMseffResourceDemandingBehaviour@pcmflatten, 
           _#_(
-            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), 
-            _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), 
+            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
           _#_(
             _:_(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, RESOURCEDEMANDINGBEHAVIOUR@-@ABSTRACTACTION@start@ATT:OCL-Type), 
@@ -5800,8 +5800,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(branchBehaviour@-@BranchTransition@PCMseffAbstractBranchTransition@pcmflatten, update(branchBehaviour@-@BranchTransition@PCMseffAbstractBranchTransition@pcmflatten, BRANCHBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), bT@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMSEFFRESOURCEDEMANDINGBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMseffResourceDemandingBehaviour@pcmflatten, 
           _#_(
-            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, update(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(start:OCL-Type, null))), 
-            _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, update(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(bT:OCL-Type, null))), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, update(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(bT:OCL-Type, null))), 
+            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, update(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(start:OCL-Type, null))), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
           _#_(
             _:_(token@PCMseffAbstractAction@pcmflatten, update(token@PCMseffAbstractAction@pcmflatten, TOKEN@start@ATT:OCL-Type, nil, link(t:OCL-Type, null))), 
@@ -5837,8 +5837,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
           _:_(branchBehaviour@-@BranchTransition@PCMseffAbstractBranchTransition@pcmflatten, BRANCHBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMSEFFRESOURCEDEMANDINGBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMseffResourceDemandingBehaviour@pcmflatten, 
         _#_(
-          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), 
-          _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), 
+          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(start:OCL-Type, PCMSEFFSTARTACTION@PCMFLATTEN@start@CLASS:PCMseffStartAction@pcmflatten, 
         _#_(
           _:_(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, RESOURCEDEMANDINGBEHAVIOUR@-@ABSTRACTACTION@start@ATT:OCL-Type), 
@@ -5878,8 +5878,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(branchBehaviour@-@BranchTransition@PCMseffAbstractBranchTransition@pcmflatten, BRANCHBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMSEFFRESOURCEDEMANDINGBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMseffResourceDemandingBehaviour@pcmflatten, 
           _#_(
-            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), 
-            _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), 
+            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(stop:OCL-Type, PCMSEFFSTOPACTION@PCMFLATTEN@stop@CLASS:PCMseffStopAction@pcmflatten, 
           _#_(
             _:_(token@PCMseffAbstractAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
@@ -5906,8 +5906,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(branchBehaviour@-@BranchTransition@PCMseffAbstractBranchTransition@pcmflatten, update(branchBehaviour@-@BranchTransition@PCMseffAbstractBranchTransition@pcmflatten, BRANCHBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), bT@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMSEFFRESOURCEDEMANDINGBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMseffResourceDemandingBehaviour@pcmflatten, 
           _#_(
-            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, update(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(stop:OCL-Type, null))), 
-            _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, update(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(bT:OCL-Type, null))), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, update(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(bT:OCL-Type, null))), 
+            _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, update(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(stop:OCL-Type, null))), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(stop:OCL-Type, PCMSEFFSTOPACTION@PCMFLATTEN@stop@CLASS:PCMseffStopAction@pcmflatten, 
           _#_(
             _:_(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, update(resourceDemandingBehaviour@-@AbstractAction@PCMseffAbstractAction@pcmflatten, RESOURCEDEMANDINGBEHAVIOUR@-@ABSTRACTACTION@stop@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), 
@@ -5934,8 +5934,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
           _:_(branchBehaviour@-@BranchTransition@PCMseffAbstractBranchTransition@pcmflatten, BRANCHBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMSEFFRESOURCEDEMANDINGBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMseffResourceDemandingBehaviour@pcmflatten, 
         _#_(
-          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), 
-          _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(abstractBranchTransition@-@ResourceDemandingBehaviour@PCMseffResourceDemandingBehaviour@pcmflatten, ABSTRACTBRANCHTRANSITION@-@RESOURCEDEMANDINGBEHAVIOUR@scBeh@ATT:OCL-Type), 
+          _:_(steps@-@Behaviour@PCMseffResourceDemandingBehaviour@pcmflatten, STEPS@-@BEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(stop:OCL-Type, PCMSEFFSTOPACTION@PCMFLATTEN@stop@CLASS:PCMseffStopAction@pcmflatten, 
         _#_(
           _:_(token@PCMseffAbstractAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
@@ -5966,16 +5966,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(loop:OCL-Type, PCMUSAGEMODELLOOP@PCMFLATTEN@loop@CLASS:PCMusagemodelLoop@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), 
-            _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
             _:_(loop@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, LOOP@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
             _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(stop:OCL-Type, PCMUSAGEMODELSTOP@PCMFLATTEN@stop@CLASS:PCMusagemodelStop@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
-            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(loopT:OCL-Type, TOKENTOKENSUSLOOPTOKEN@PCMFLATTEN@loopT@CLASS:TOKENtokensUSLoopToken@pcmflatten, 
           _#_(
             _:_(completed@TOKENtokensUSToken@pcmflatten, COMPLETED@loopT@ATT:OCL-Type), 
@@ -5995,8 +5995,8 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(loop:OCL-Type, PCMUSAGEMODELLOOP@PCMFLATTEN@loop@CLASS:PCMusagemodelLoop@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type, nil, link(t:OCL-Type, null))), 
-            _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, update(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), loop@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, update(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type, nil, link(t:OCL-Type, null))), loop@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
             _:_(loop@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(loop@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, LOOP@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(loop:OCL-Type, null))), 
@@ -6025,16 +6025,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(loop:OCL-Type, PCMUSAGEMODELLOOP@PCMFLATTEN@loop@CLASS:PCMusagemodelLoop@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), 
-          _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(bodyBehaviour@-@Loop@PCMusagemodelLoop@pcmflatten, BODYBEHAVIOUR@-@LOOP@loop@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@loop@ATT:OCL-Type), loop@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
         _#_(
           _:_(loop@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, LOOP@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
           _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(stop:OCL-Type, PCMUSAGEMODELSTOP@PCMFLATTEN@stop@CLASS:PCMusagemodelStop@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), 
-          _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@stop@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@stop@ATT:OCL-Type), stop@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(loopT:OCL-Type, TOKENTOKENSUSLOOPTOKEN@PCMFLATTEN@loopT@CLASS:TOKENtokensUSLoopToken@pcmflatten, 
         _#_(
           _:_(completed@TOKENtokensUSToken@pcmflatten, COMPLETED@loopT@ATT:OCL-Type), 
@@ -6067,16 +6067,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
       __(
         <_:_|_>(bA:OCL-Type, PCMUSAGEMODELBRANCH@PCMFLATTEN@bA@CLASS:PCMusagemodelBranch@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type), 
-            _:_(branchTransitions@-@Branch@PCMusagemodelBranch@pcmflatten, BRANCHTRANSITIONS@-@BRANCH@bA@ATT:OCL-Type), bA@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(branchTransitions@-@Branch@PCMusagemodelBranch@pcmflatten, BRANCHTRANSITIONS@-@BRANCH@bA@ATT:OCL-Type), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type), bA@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(bT:OCL-Type, PCMUSAGEMODELBRANCHTRANSITION@PCMFLATTEN@bT@CLASS:PCMusagemodelBranchTransition@pcmflatten, 
           _#_(
-            _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
-            _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
+            _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
-            _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
-            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+            _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(start:OCL-Type, PCMUSAGEMODELSTART@PCMFLATTEN@start@CLASS:PCMusagemodelStart@pcmflatten, 
           _#_(
             _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@start@ATT:OCL-Type), 
@@ -6101,16 +6101,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
             _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type, link(t:OCL-Type, null), nil)), bA@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(bT:OCL-Type, PCMUSAGEMODELBRANCHTRANSITION@PCMFLATTEN@bT@CLASS:PCMusagemodelBranchTransition@pcmflatten, 
           _#_(
-            _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, update(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type, nil, link(bA:OCL-Type, null))), 
-            _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, update(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), bT@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, update(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), 
+            _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, update(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type, nil, link(bA:OCL-Type, null))), bT@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
           _#_(
-            _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(bT:OCL-Type, null))), 
-            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(start:OCL-Type, null))), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(start:OCL-Type, null))), 
+            _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, update(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type, nil, link(bT:OCL-Type, null))), scBeh@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(start:OCL-Type, PCMUSAGEMODELSTART@PCMFLATTEN@start@CLASS:PCMusagemodelStart@pcmflatten, 
           _#_(
-            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@start@ATT:OCL-Type, nil, link(t:OCL-Type, null))), 
-            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, update(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@start@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), start@SFS:Set{@StructuralFeatureInstance})), 
+            _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, update(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@start@ATT:OCL-Type, nil, link(scBeh:OCL-Type, null))), 
+            _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, update(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@start@ATT:OCL-Type, nil, link(t:OCL-Type, null))), start@SFS:Set{@StructuralFeatureInstance})), 
         <_:_|_>(t:OCL-Type, TOKENTOKENSUSTOKEN@PCMFLATTEN@t@CLASS:TOKENtokensUSToken@pcmflatten, 
           _#_(
             _:_(prob@TOKENtokensUSToken@pcmflatten, eval(0, env(_<-_(self, t:OCL-Type)), MODEL@:@Model)), 
@@ -6127,16 +6127,16 @@ mod @PCMFLATTEN@BEHAVIOR@ is
     __(
       <_:_|_>(bA:OCL-Type, PCMUSAGEMODELBRANCH@PCMFLATTEN@bA@CLASS:PCMusagemodelBranch@pcmflatten, 
         _#_(
-          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type), 
-          _:_(branchTransitions@-@Branch@PCMusagemodelBranch@pcmflatten, BRANCHTRANSITIONS@-@BRANCH@bA@ATT:OCL-Type), bA@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(branchTransitions@-@Branch@PCMusagemodelBranch@pcmflatten, BRANCHTRANSITIONS@-@BRANCH@bA@ATT:OCL-Type), 
+          _:_(token@PCMusagemodelAbstractUserAction@pcmflatten, TOKEN@bA@ATT:OCL-Type), bA@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(bT:OCL-Type, PCMUSAGEMODELBRANCHTRANSITION@PCMFLATTEN@bT@CLASS:PCMusagemodelBranchTransition@pcmflatten, 
         _#_(
-          _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
-          _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(branchedBehaviour@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCHEDBEHAVIOUR@-@BRANCHTRANSITION@bT@ATT:OCL-Type), 
+          _:_(branch@-@BranchTransition@PCMusagemodelBranchTransition@pcmflatten, BRANCH@-@BRANCHTRANSITION@bT@ATT:OCL-Type), bT@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(scBeh:OCL-Type, PCMUSAGEMODELSCENARIOBEHAVIOUR@PCMFLATTEN@scBeh@CLASS:PCMusagemodelScenarioBehaviour@pcmflatten, 
         _#_(
-          _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
-          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
+          _:_(actions@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, ACTIONS@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), 
+          _:_(branchTransition@-@ScenarioBehaviour@PCMusagemodelScenarioBehaviour@pcmflatten, BRANCHTRANSITION@-@SCENARIOBEHAVIOUR@scBeh@ATT:OCL-Type), scBeh@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(start:OCL-Type, PCMUSAGEMODELSTART@PCMFLATTEN@start@CLASS:PCMusagemodelStart@pcmflatten, 
         _#_(
           _:_(scenarioBehaviour@-@AbstractUserAction@PCMusagemodelAbstractUserAction@pcmflatten, SCENARIOBEHAVIOUR@-@ABSTRACTUSERACTION@start@ATT:OCL-Type), 
@@ -6201,11 +6201,11 @@ mod @PCMFLATTEN@BEHAVIOR@ is
           _:_(sandTimer@PCMusagemodelOpenWorkload@pcmflatten, SANDTIMER@ow@ATT:OCL-Type), ow@SFS:Set{@StructuralFeatureInstance})), 
       <_:_|_>(CLK@:Oid, Clock@MGBehavior, 
           _:_(time@Clock@MGBehavior, TIME@CLK@:Time)), 
-      <_:_|_>('ids@, Counter@MGBehavior, 
+      <_:_|_>(oid('ids@), Counter@MGBehavior, 
           _:_(value@Counter@MGBehavior, VALUE@ids@:Int)), 
-      <_:_|_>('rdm@, Counter@MGBehavior, 
+      <_:_|_>(oid('rdm@), Counter@MGBehavior, 
           _:_(value@Counter@MGBehavior, VALUE@rdm@:Int)), OBJSET@:Set{@Object}))
-  ----/\ eval(_.`oclIsUndefined`(`)(__(ow:OCL-Type, ._(sandTimer@OCLSf))), env(empty), MODEL@:@Model)
+  /\ eval(_.`oclIsUndefined`(`)(__(ow:OCL-Type, ._(sandTimer@OCLSf))), env(empty), MODEL@:@Model)
   /\ T:OCL-Type := eval(0, env(empty), MODEL@:@Model)
   /\ OR1@:Oid := newId(_+_(VALUE@ids@:Int, 1))
   /\ st:OCL-Type := newId(_+_(VALUE@ids@:Int, 2)) [print " -> OpenWorkloadCreateSandTimer@Instantaneous \tin time " TIME@CLK@:Time] .

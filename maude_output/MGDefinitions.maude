@@ -938,4 +938,6 @@ mod MAUDELING is
   pr MODELPARSER * (
 		op _lt_  : String String -> Bool to _ltS_,
         op _gt_  : String String -> Bool to _gtS_ )  .
+  
+  op oid : Qid -> Oid .	
 endm

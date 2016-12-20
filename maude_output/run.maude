@@ -26,7 +26,7 @@ mod RUN is
    { MODEL } in time T
   =>
    { delta(MODEL, TE) } in time (T plus TE)
-  if TE := mte(MODEL) /\ TE =/= zero /\ (T plus TE) le 100 .
+  if TE := mte(MODEL) /\ TE =/= zero .
 endm
 
 rewrite init(PALLADIOFLATTENINITMODEL) .
