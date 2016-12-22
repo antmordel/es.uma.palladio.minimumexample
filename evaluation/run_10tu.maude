@@ -3,16 +3,16 @@ set show advisories off .
 set print attribute on .
 
 load model-checker.maude
-load mOdCL.maude
-load MGDefinitions.maude
-load EcoreMM.maude
-load MGRealTimeMaude24.maude
-load e-Motions.maude
+load ../maude_output/mOdCL.maude
+load ../maude_output/MGDefinitions.maude
+load ../maude_output/EcoreMM.maude
+load ../maude_output/MGRealTimeMaude24.maude
+load ../maude_output/e-Motions.maude
 
-load FlattenPalladioMM.ecore.maude
-load PalladioGrammar.maude
-load PalladioRules.behavior.maude
-load palladioFlattenInitModel.xmi.maude
+load ../maude_output/FlattenPalladioMM.ecore.maude
+load ../maude_output/PalladioGrammar.maude
+load ../maude_output/PalladioRules.behavior.maude
+load ../maude_output/palladioFlattenInitModel.xmi.maude
 
 
 mod RUN is
@@ -30,3 +30,5 @@ mod RUN is
 endm
 
 rewrite init(PALLADIOFLATTENINITMODEL) .
+
+q
